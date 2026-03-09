@@ -11,3 +11,5 @@ I make tiny (~200 - 500) line projects that I think are pretty cool, and I'm rea
 Have a look around.
 
 [my blog](/blog)
+
+[feed](/feed.xml)

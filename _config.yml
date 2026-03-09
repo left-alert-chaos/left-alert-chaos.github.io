@@ -1,10 +1,13 @@
-domain: my-site.github.io
-url: https://my-site.github.io
+domain: left-alert-chaos.github.io
+url: https://left-alert-chaos.github.io
 
 title: left-alert-chaos
 tagline: a place on the internet that happens to have my thoughts and projects
 description: My personal page.
+author: left-alert-chaos
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
+gems:
+- jekyll-feed
