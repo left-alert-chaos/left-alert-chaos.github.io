@@ -1,0 +1,51 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(70, 176, 102);
+}
+
+h1 {
+    animation: fade-in .5s;
+}
+
+h2 {
+    animation: fade-in .75s;
+}
+
+h3 {
+    animation: fade-in 1s;
+}
+
+h4 {
+    animation: fade-in 1.25s;
+}
+
+h5 {
+    animation: fade-in 1.5s;
+}
+
+h6 {
+    animation: fade-in 1.5s;
+}
+
+p, a {
+    animation: fade-in 1.5s;
+}
