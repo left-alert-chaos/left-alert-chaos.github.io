@@ -13,6 +13,39 @@
     }
 }
 
+/*
+@keyframes bounce-in {
+    0% {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        opacity: 0;
+    }
+
+    50% {
+        padding-bottom: random(20) + px;
+        padding-top: random(15) + px;
+        opacity: 1;
+    }
+
+    100% {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+*/
+
+@keyframes fall {
+    from {
+        opacity: 0;
+        margin-top: -25px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
 body {
     background-color: rgb(36, 36, 36);
     color: white;
@@ -20,32 +53,18 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: rgb(70, 176, 102);
+    animation: fade-in 0.5s;
 }
 
-h1 {
-    animation: fade-in .5s;
+p, a, li, small {
+    animation: fall 0.75s;
 }
 
-h2 {
-    animation: fade-in .75s;
+.posts-container {
+    display: flex,
 }
 
-h3 {
-    animation: fade-in 1s;
-}
-
-h4 {
-    animation: fade-in 1.25s;
-}
-
-h5 {
-    animation: fade-in 1.5s;
-}
-
-h6 {
-    animation: fade-in 1.5s;
-}
-
-p, a {
-    animation: fade-in 1.5s;
+.post-preview {
+    //border-radius: 15%;
+    background-color:rgb(22, 22, 22)
 }
