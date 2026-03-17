@@ -1,7 +1,7 @@
 # Blog
 All my posts, newest to oldest.
 
-<ul>
+<div>
 {% for post in site.posts %}
 	<div class="post-preview">
 		<a href="{{ post.url }}">{{ post.title }}</a>
@@ -9,6 +9,4 @@ All my posts, newest to oldest.
 		<p>{{ post.excerpt }}</p>
 	</div>
 {% endfor %}
-</ul>
-
-Credit: Some of the HTML to display the posts came from [this documentation page.](https://jekyllrb.com/docs/posts/)
+<div>
