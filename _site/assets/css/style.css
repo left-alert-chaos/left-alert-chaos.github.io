@@ -230,4 +230,6 @@ h1, h2, h3, h4, h5, h6 { color: #46b066; animation: fade-in 0.5s; }
 
 p, a, li, small { animation: fall 0.75s; }
 
-.post-preview { background-color: #161616; padding: 10px; border-radius: 10px; }
+.post-preview { background-color: #161616; padding: 10px; border-radius: 10px; margin-top: 10px; }
+
+.posts-container { padding: 15px; }
