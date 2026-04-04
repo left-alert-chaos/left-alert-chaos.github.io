@@ -224,7 +224,7 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 */
 @keyframes fall { from { opacity: 0; margin-top: -25px; }
   to { opacity: 1; margin-top: 0px; } }
-body { background-image: url("../mars.png"); color: white; background-size: 100% auto; background-attachment: fixed; }
+body { background-color: #212121; color: white; background-size: 100% auto; background-attachment: fixed; }
 
 h1, h2, h3, h4, h5, h6 { color: #46b066; animation: fade-in 0.5s; }
 
